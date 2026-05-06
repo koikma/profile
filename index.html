@@ -1398,11 +1398,69 @@ footer { background:#080F1C; padding:56px 24px 36px; }
 
 }
 
+/* ── MOBILE PHONE CTA ── */
+
+.mobile-phone-cta {
+
+  display: none;
+
+  position: fixed;
+
+  bottom: 0; left: 0; right: 0;
+
+  z-index: 998;
+
+  background: var(--crimson);
+
+  padding: 14px 24px;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  text-decoration: none;
+
+  color: #fff;
+
+  font-weight: 600;
+
+  font-size: 15px;
+
+  letter-spacing: 0.04em;
+
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.25);
+
+  border-top: 2px solid rgba(255,255,255,0.15);
+
+}
+
+.mobile-phone-cta .phone-icon { font-size: 18px; }
+
+@media (max-width: 768px) {
+
+  .mobile-phone-cta { display: flex; }
+
+  body { padding-bottom: 56px; }
+
+}
+
 </style>
 
 </head>
 
 <body>
+
+<!-- MOBILE STICKY PHONE -->
+
+<a href="tel:0379321481" class="mobile-phone-cta" aria-label="Call KoIKMa">
+
+  <span class="phone-icon">📞</span>
+
+  <span>Call Us: 03-7932 1481</span>
+
+</a>
 
 <!-- NAV -->
 
@@ -1948,7 +2006,7 @@ footer { background:#080F1C; padding:56px 24px 36px; }
 
               <strong>Phone</strong>
 
-              03-7932 1481<br>
+              <a href="tel:0379321481" style="color:inherit;text-decoration:none;font-weight:600;">03-7932 1481</a><br>
 
               <span style="font-size:12px;opacity:0.7">Mon–Fri, 8:30 AM – 5:30 PM</span>
 
@@ -2106,7 +2164,7 @@ footer { background:#080F1C; padding:56px 24px 36px; }
 
         <li><a href="mailto:info@koikma.my">info@koikma.my</a></li>
 
-        <li><a href="#">Blok K, 103, Jalan Templer</a></li>
+        <li><a href="#">Lot 3, Jalan Templer</a></li>
 
         <li><a href="#">46700 Petaling Jaya</a></li>
 
@@ -2120,7 +2178,7 @@ footer { background:#080F1C; padding:56px 24px 36px; }
 
   <div class="footer-bottom">
 
-    <p class="footer-copy"><strong>© 2026 Koperasi Warga Institut Koperasi Malaysia Berhad (KoIKMa).</strong><br>All rights reserved. Registered cooperative under the Cooperative Societies Act 1993.</p>
+    <p class="footer-copy"><strong>© 2025 Koperasi Warga Institut Koperasi Malaysia Berhad (KoIKMa).</strong><br>All rights reserved. Registered cooperative under the Cooperative Societies Act 1993.</p>
 
     <p class="footer-legal">Information on this website is for general purposes only. Programme details and schedules are subject to change without notice. KoIKMa makes no warranties regarding accuracy or completeness of content.</p>
 
